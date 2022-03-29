@@ -45114,6 +45114,42 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/ml-workspace-0.0.1/ml-workspace-0.0.1.tgz
     version: 0.0.1
+  mongodb:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.0.6
+    created: "2022-03-29T22:32:55.593306366Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.3
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: 94b536b1bf5c77d9d3c9bb9ce44296c5889de7dc5e0d0ba28aecc4f78aa3758c
+    home: https://github.com/truecharts/apps/tree/master/stable/mongodb
+    icon: https://truecharts.org/_static/img/appicons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://hub.docker.com/r/bitnami/mongodb
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://www.mongodb.com
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/mongodb-0.0.8/mongodb-0.0.8.tgz
+    version: 0.0.8
   monica:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -86736,4 +86772,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-03-28T04:18:08.390422382Z"
+generated: "2022-03-29T22:32:55.603316215Z"
