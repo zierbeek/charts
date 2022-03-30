@@ -5530,6 +5530,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.0.4
+    created: "2022-03-30T13:54:44.405536654Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    description: Budge is an open source 'budgeting with envelopes' personal finance
+      app.
+    digest: 036097fac44be3195d1e933f75193ae9b5ec92ab6ce4dc17f5d58220e6aa0650
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/budge
+    icon: https://truecharts.org/_static/img/appicons/budge.png
+    keywords:
+    - finance
+    - budge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: budge
+    sources:
+    - https://github.com/linuxserver/budge
+    - https://github.com/linuxserver/docker-BudgE
+    urls:
+    - https://github.com/truecharts/apps/releases/download/budge-1.0.10/budge-1.0.10.tgz
+    version: 1.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.0.4
     created: "2022-03-15T15:30:50.484140395Z"
     dependencies:
     - name: common
@@ -12910,6 +12942,37 @@ entries:
     - https://github.com/truecharts/apps/releases/download/dizquetv-4.0.19/dizquetv-4.0.19.tgz
     version: 4.0.19
   docker-compose:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - docker
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 20.10.14
+    created: "2022-03-30T13:54:44.5379048Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    description: Dedicated App for using Docker-Compose on TrueNAS SCALE
+    digest: ca6a14ae717ad357c87af5a497bd5942b9a5dbe24d8c7d87c2c77bced07fac77
+    home: https://github.com/truecharts/apps/tree/master/charts/dev/docker-compose
+    icon: https://truecharts.org/_static/img/appicons/docker-compose.png
+    keywords:
+    - docker-compose
+    - docker
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: docker-compose
+    sources:
+    - https://hub.docker.com/_/docker
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/docker-compose-1.0.11/docker-compose-1.0.11.tgz
+    version: 1.0.11
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -22657,6 +22720,41 @@ entries:
     - https://github.com/truecharts/apps/releases/download/gotify-5.0.13/gotify-5.0.13.tgz
     version: 5.0.13
   grafana:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 8.4.4
+    created: "2022-03-30T13:54:44.703475255Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    description: Grafana is an open source, feature rich metrics dashboard and graph
+      editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.
+    digest: 2d655d6fe59dcb00fff0a9a47647a454442e75dcbcf3393bfbc46910230924c1
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/grafana
+    icon: https://truecharts.org/_static/img/appicons/grafana.png
+    keywords:
+    - analytics
+    - monitoring
+    - metrics
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: grafana
+    sources:
+    - https://github.com/bitnami/bitnami-docker-grafana
+    - https://grafana.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/grafana-3.0.16/grafana-3.0.16.tgz
+    version: 3.0.16
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -37529,14 +37627,14 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 10.7.3
-    created: "2022-03-30T13:07:18.890290101Z"
+    created: "2022-03-30T13:54:44.911006128Z"
     dependencies:
     - name: common
       repository: https://library-charts.truecharts.org
       version: 9.2.3
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
-    digest: e7bf1153271201a70202a4fdb2f39a275cdf010e755955ef925b257ebca371f0
+    digest: 2cae965587a7cdc28dd44a5a8d3317d8fd7b7819e45a971441eb02f56d397503
     home: https://github.com/truecharts/apps/tree/master/stable/mariadb
     icon: https://truecharts.org/_static/img/appicons/mariadb.png
     keywords:
@@ -39762,6 +39860,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 4.8.0
+    created: "2022-03-30T13:54:45.078837387Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.truecharts.org/
+      version: 2.0.23
+    description: Matomo is the leading Free/Libre open analytics platform
+    digest: 798789f2ebfa4513b7f0f6a02780feb88acc4d8462a19b8e0b7d1db74d794d9a
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/matomo
+    icon: https://truecharts.org/_static/img/appicons/matomo.png
+    keywords:
+    - analytics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: matomo
+    sources:
+    - https://hub.docker.com/r/bitnami/matomo
+    - https://github.com/bitnami/bitnami-docker-matomo
+    - https://github.com/matomo-org/matomo
+    urls:
+    - https://github.com/truecharts/apps/releases/download/matomo-1.0.16/matomo-1.0.16.tgz
+    version: 1.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.8.0
     created: "2022-03-30T08:25:37.074530088Z"
     dependencies:
     - name: common
@@ -40888,13 +41021,13 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.6.14
-    created: "2022-03-30T13:07:19.076443435Z"
+    created: "2022-03-30T13:54:45.236112282Z"
     dependencies:
     - name: common
       repository: https://library-charts.truecharts.org
       version: 9.2.3
     description: Memcached is a memory-backed database caching solution
-    digest: ac23a4608ff496dfae81063ae2ba11002681ccdf65236face0b4b4911bb81c34
+    digest: eddfc1470edf943e67317b2dd882eeb4f8964cb9e432b07c010c0fb46d1dca95
     home: https://github.com/truecharts/apps/tree/master/stable/memcached
     icon: https://bitnami.com/assets/stacks/memcached/img/memcached-stack-220x234.png
     keywords:
@@ -45755,14 +45888,14 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.0.6
-    created: "2022-03-30T13:07:19.257674064Z"
+    created: "2022-03-30T13:54:45.379747081Z"
     dependencies:
     - name: common
       repository: https://library-charts.truecharts.org
       version: 9.2.3
     description: Fast, reliable, scalable, and easy to use open-source no-sql database
       system.
-    digest: 37fc072ef32ca36d608583f75e752a5f40a16294de4d45158b3aad51f8e5c804
+    digest: c1acf47433263a3fcc5fdc1cbc34a64cdaa0e6c37c09c03ec0d2a4f941bfc156
     home: https://github.com/truecharts/apps/tree/master/stable/mongodb
     icon: https://truecharts.org/_static/img/appicons/mongodb.png
     keywords:
@@ -48439,6 +48572,50 @@ entries:
     - https://github.com/truecharts/apps/releases/download/navidrome-9.0.20/navidrome-9.0.20.tgz
     version: 9.0.20
   nextcloud:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 23.0.3
+    created: "2022-03-30T13:54:45.628741032Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 7.0.21
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.truecharts.org
+      version: 2.0.17
+    description: A private cloud server that puts the control and security of your
+      own data back into your hands.
+    digest: 807b09c2b7f9d6426deebf2082f30679f2dd08ac7e9e31029d3f7727fc4e13ae
+    home: https://nextcloud.com/
+    icon: https://truecharts.org/_static/img/appicons/nextcloud.png
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/docker
+    - https://github.com/nextcloud/helm
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/nextcloud-12.0.13/nextcloud-12.0.13.tgz
+    version: 12.0.13
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -62019,6 +62196,48 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.55.1
+    created: "2022-03-30T13:54:45.805099701Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.4.5
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.2.13
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 64305248a6b5edf892ae48b086cb0229b45fdadf393e314201c37e1fd7ffada3
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/prometheus
+    icon: https://truecharts.org/_static/img/appicons/prometheus.png
+    keywords:
+    - metrics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: prometheus
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/prometheus-2.0.21/prometheus-2.0.21.tgz
+    version: 2.0.21
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.55.1
     created: "2022-03-30T11:50:03.100160121Z"
     dependencies:
     - name: common
@@ -71861,6 +72080,46 @@ entries:
     - https://github.com/truecharts/apps/releases/download/redis-1.0.27/redis-1.0.27.tgz
     version: 1.0.27
   redmine:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.2.5
+    created: "2022-03-30T13:54:45.970800909Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.1.15
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 7.0.21
+    description: Redmine is a flexible project management web application written
+      using Ruby on Rails framework.
+    digest: 1e1d46d3e7d96248aceec7984f9863594bf7eb8069a6053012219e1caf88cff0
+    home: https://github.com/truecharts/apps/tree/main/charts/redmine
+    icon: https://truecharts.org/_static/img/appicons/redmine.png
+    keywords:
+    - project
+    - management
+    - time
+    - tracking
+    - ticket
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redmine
+    sources:
+    - https://github.com/redmine/redmine
+    - https://hub.docker.com/_/redmine
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/redmine-1.0.11/redmine-1.0.11.tgz
+    version: 1.0.11
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -88380,4 +88639,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-03-30T13:07:19.480976245Z"
+generated: "2022-03-30T13:54:45.980959282Z"
