@@ -36446,6 +36446,38 @@ entries:
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
+        - storage
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.12.1
+    created: "2022-03-31T20:47:23.802069669Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: IPFS is a global, versioned, peer-to-peer filesystem. It combines
+      good ideas from previous systems such Git, BitTorrent, Kademlia, SFS, and the
+      Web. It is like a single bittorrent swarm, exchanging git objects.
+    digest: 1a58f8918d8b886154254553f3bc24f97d70214d3481077b42783691a9a607d7
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/ipfs
+    icon: https://truecharts.org/_static/img/appicons/ipfs.png
+    keywords:
+    - ipfs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ipfs
+    sources:
+    - https://hub.docker.com/r/linuxserver/ipfs
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/ipfs-2.0.0/ipfs-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
         - incubator
       truecharts.org/grade: U
     apiVersion: v2
@@ -58456,6 +58488,37 @@ entries:
     - https://github.com/truecharts/apps/releases/download/monica-0.0.12/monica-0.0.12.tgz
     version: 0.0.12
   mosdns:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 3.5.2
+    created: "2022-03-31T20:47:24.209175445Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: A location-based pluggable DNS forwarder/splitter.
+    digest: 27fb0bd53998c521530d1386bdeb449e1b53e10eb67c61c707cf42720ab00314
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/mosdns
+    icon: https://truecharts.org/_static/img/appicons/mosdns.png
+    keywords:
+    - mosdns
+    - dns
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mosdns
+    sources:
+    - https://hub.docker.com/r/601096721/mosdns
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/mosdns-0.0.2/mosdns-0.0.2.tgz
+    version: 0.0.2
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -107965,6 +108028,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: "6.11"
+    created: "2022-03-31T20:47:24.448265719Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.truecharts.org
+      version: 0.0.14
+    description: WeKan - Open Source kanban
+    digest: 40976d07092edce0c8d8c39cacf4cf4e63fc8060f34f1742b733c24586cf6ed3
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/wekan
+    icon: https://truecharts.org/_static/img/appicons/wekan.png
+    keywords:
+    - wekan
+    - kanban
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: wekan
+    sources:
+    - https://github.com/wekan/wekan
+    - https://wekan.github.io/
+    urls:
+    - https://github.com/truecharts/apps/releases/download/wekan-1.0.4/wekan-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: "6.11"
     created: "2022-03-31T18:20:03.687723857Z"
     dependencies:
     - name: common
@@ -111072,4 +111170,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-03-31T18:20:04.100242517Z"
+generated: "2022-03-31T20:47:24.462205984Z"
