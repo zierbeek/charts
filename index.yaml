@@ -45845,6 +45845,39 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/linkace-0.0.1/linkace-0.0.1.tgz
     version: 0.0.1
+  linkding:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - bookmarks
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.8.8
+    created: "2022-04-01T21:39:03.587073258Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: Linkding is a simple bookmark service that you can host yourself.
+      It's designed be to be minimal, fast and easy.
+    digest: c22085d7ff55c190b154ea203d37390b4ab8551f00b0b6f403206b1abb7f0bf7
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/linkding
+    icon: https://truecharts.org/_static/img/appicons/linkding.png
+    keywords:
+    - bookmarks
+    - links
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: linkding
+    sources:
+    - https://github.com/sissbruecker/linkding
+    - https://hub.docker.com/r/sissbruecker/linkding
+    urls:
+    - https://github.com/truecharts/apps/releases/download/linkding-0.0.1/linkding-0.0.1.tgz
+    version: 0.0.1
   littlelink:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -112496,4 +112529,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T21:03:28.201972954Z"
+generated: "2022-04-01T21:39:03.700815435Z"
