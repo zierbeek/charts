@@ -105424,6 +105424,42 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/twtxt-1.0.21/twtxt-1.0.21.tgz
     version: 1.0.21
+  typecho:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - hosting
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.2.0-php8
+    created: "2022-04-01T12:41:20.765857082Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.truecharts.org/
+      version: 2.0.28
+    description: Typecho is a PHP Blogging Platform.
+    digest: f2716af7ef9e66bb02c6dbadb31fc1eefaee0757326255d2fcd26e74adf9147b
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/typecho
+    icon: https://truecharts.org/_static/img/appicons/typecho.png
+    keywords:
+    - typecho
+    - blog
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: typecho
+    sources:
+    - https://github.com/typecho/typecho
+    - https://hub.docker.com/r/joyqi/typecho
+    urls:
+    - https://github.com/truecharts/apps/releases/download/typecho-0.0.1/typecho-0.0.1.tgz
+    version: 0.0.1
   ubooquity:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -112355,4 +112391,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T10:27:26.802283963Z"
+generated: "2022-04-01T12:41:20.775662997Z"
