@@ -21047,6 +21047,40 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/external-service-4.0.20/external-service-4.0.20.tgz
     version: 4.0.20
+  ferdi-server:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.3.2
+    created: "2022-04-01T07:35:12.763624015Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 7.0.27
+    description: Server for Ferdi that you can re-use to run your own
+    digest: 3db4d92f03f3d0ab3eb31109b80c0c849253de5ae9a0072f602a0edb7fb8fc0c
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/ferdi-server
+    icon: https://truecharts.org/_static/img/appicons/ferdi-server.png
+    keywords:
+    - ferdi
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ferdi-server
+    sources:
+    - https://github.com/getferdi/server
+    urls:
+    - https://github.com/truecharts/apps/releases/download/ferdi-server-0.0.1/ferdi-server-0.0.1.tgz
+    version: 0.0.1
   filebrowser:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -75718,6 +75752,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 14.2.0
+    created: "2022-04-01T07:35:12.954459987Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: PostgresSQL
+    digest: a001a4357eb219048404197513b694fd6d78563ecf89ecbbd3e1ae0f42b501f4
+    home: https://github.com/truecharts/apps/tree/master/stable/postgres
+    icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/library-postgres-logo.png
+    keywords:
+    - postgres
+    - postgressql
+    - dtabase
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: postgresql
+    sources:
+    - https://www.postgresql.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/postgresql-7.0.34/postgresql-7.0.34.tgz
+    version: 7.0.34
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 14.2.0
     created: "2022-04-01T04:03:28.574286756Z"
     dependencies:
     - name: common
@@ -112045,4 +112112,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T06:16:00.229914763Z"
+generated: "2022-04-01T07:35:12.966549641Z"
