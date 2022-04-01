@@ -87675,6 +87675,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 6.2.6
+    created: "2022-04-01T08:31:36.811455818Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: Open source, advanced key-value store.
+    digest: c9c039dd2e5ff82ce3371f16affe546f0f04aa4e17816bcbc5b2e148479ff775
+    home: https://github.com/truecharts/apps/tree/master/stable/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/redis-2.0.27/redis-2.0.27.tgz
+    version: 2.0.27
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 6.2.6
     created: "2022-03-31T14:40:58.615465537Z"
     dependencies:
     - name: common
@@ -112112,4 +112146,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T07:35:12.966549641Z"
+generated: "2022-04-01T08:31:36.824275831Z"
