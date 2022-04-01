@@ -74228,6 +74228,38 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/piaware-4.0.20/piaware-4.0.20.tgz
     version: 4.0.20
+  picoshare:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.5
+    created: "2022-04-01T21:03:28.011098441Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: PicoShare is a minimalist service that allows you to share files
+      easily.
+    digest: 2d9e3670703cb48bc90983a1292a661676bf786ea4594a0afb3664ca494ac5a7
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/picoshare
+    icon: https://truecharts.org/_static/img/appicons/picoshare.png
+    keywords:
+    - picoshare
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: picoshare
+    sources:
+    - https://github.com/mtlynch/picoshare
+    - https://hub.docker.com/r/mtlynch/picoshare
+    urls:
+    - https://github.com/truecharts/apps/releases/download/picoshare-0.0.1/picoshare-0.0.1.tgz
+    version: 0.0.1
   pidgin:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -112464,4 +112496,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T20:16:05.98005563Z"
+generated: "2022-04-01T21:03:28.201972954Z"
