@@ -81142,6 +81142,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.4.2
+    created: "2022-04-01T10:10:16.441066781Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: Promtail is an agent which ships the contents of local logs to a
+      Loki instance
+    digest: ad1b4bb687613864cbbc1e92e245c1e1a4b2afee1779c90dce2b62770c3bca34
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/prometheus
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    keywords:
+    - metrics
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: promtail
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/promtail-2.0.19/promtail-2.0.19.tgz
+    version: 2.0.19
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+        - logs
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.4.2
     created: "2022-04-01T09:50:54.026962968Z"
     dependencies:
     - name: common
@@ -112250,4 +112285,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T09:50:54.037049072Z"
+generated: "2022-04-01T10:10:16.455204698Z"
