@@ -52325,6 +52325,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.6.15
+    created: "2022-04-01T09:24:18.281217158Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: Memcached is a memory-backed database caching solution
+    digest: 8a897780ab0447050d8f5f535d324c22c48f31a44afa3ff9c6be35452a5084e4
+    home: https://github.com/truecharts/apps/tree/master/stable/memcached
+    icon: https://bitnami.com/assets/stacks/memcached/img/memcached-stack-220x234.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - http://memcached.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/memcached-2.0.29/memcached-2.0.29.tgz
+    version: 2.0.29
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.15
     created: "2022-03-31T14:40:48.526730725Z"
     dependencies:
     - name: common
@@ -112146,4 +112180,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T08:31:36.824275831Z"
+generated: "2022-04-01T09:24:18.293748892Z"
