@@ -54781,6 +54781,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: upstream
+    created: "2022-04-02T08:13:09.4549308Z"
+    dependencies:
+    - name: metallb
+      repository: https://metallb.github.io/metallb
+      version: 0.12.1
+    description: A network load-balancer implementation for Kubernetes using standard
+      routing protocols
+    digest: d56a033aa357e8fc148281451cbfe63f8a293fd6d350a2e0d40a4f7f3e9c5b10
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/metallb
+    icon: https://truecharts.org/_static/img/appicons/metallb.png
+    keywords:
+    - metallb
+    - loadbalancer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://metallb.universe.tf
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/metallb-1.0.5/metallb-1.0.5.tgz
+    version: 1.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - core
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: upstream
     created: "2021-12-19T23:48:24.391854816Z"
     dependencies:
     - name: metallb
@@ -112529,4 +112562,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-01T21:39:03.700815435Z"
+generated: "2022-04-02T08:13:09.467154496Z"
