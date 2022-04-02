@@ -70192,6 +70192,46 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.62.0
+    created: "2022-04-02T10:20:03.349596936Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 7.0.27
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.truecharts.org
+      version: 2.0.23
+    description: A fast, collaborative, knowledge base for your team built using React
+      and Node.js.
+    digest: 022ab113d4e213b77e5427f95a0bc8f7ab25f3d3278c5c189e266eb3769755dd
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/outline
+    icon: https://truecharts.org/_static/img/appicons/outline.png
+    keywords:
+    - outline
+    - knowledge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: outline
+    sources:
+    - https://github.com/outline/outline
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/outline-1.0.10/outline-1.0.10.tgz
+    version: 1.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.62.0
     created: "2022-04-02T08:25:39.509156358Z"
     dependencies:
     - name: common
@@ -113433,4 +113473,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-02T08:25:40.725545105Z"
+generated: "2022-04-02T10:20:03.986615695Z"
