@@ -46093,6 +46093,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.8.8
+    created: "2022-04-02T10:42:14.417782948Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: Linkding is a simple bookmark service that you can host yourself.
+      It's designed be to be minimal, fast and easy.
+    digest: d8c977b30cf920c918c54e1d5bcf0a7f49986888b26673eedde4b5b5b4396724
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/linkding
+    icon: https://truecharts.org/_static/img/appicons/linkding.png
+    keywords:
+    - bookmarks
+    - links
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: linkding
+    sources:
+    - https://github.com/sissbruecker/linkding
+    - https://hub.docker.com/r/sissbruecker/linkding
+    urls:
+    - https://github.com/truecharts/apps/releases/download/linkding-0.0.3/linkding-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - bookmarks
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.8.8
     created: "2022-04-02T08:25:37.446199536Z"
     dependencies:
     - name: common
@@ -55041,6 +55073,42 @@ entries:
     - https://github.com/truecharts/apps/releases/download/memcached-1.0.25/memcached-1.0.25.tgz
     version: 1.0.25
   meshcentral:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2022-04-02T10:42:14.614602735Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.truecharts.org/
+      version: 0.0.13
+    description: MeshCentral is a full computer management web site
+    digest: caae3b5542df58df27889f92276f7003b7c8a9f6dd8a89fa4289620851963637
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/meshcentral
+    icon: https://truecharts.org/_static/img/appicons/meshcentral.png
+    keywords:
+    - meshcentral
+    - teamviewer
+    - rdp
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: meshcentral
+    sources:
+    - https://github.com/Ylianst/MeshCentral
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/meshcentral-0.0.6/meshcentral-0.0.6.tgz
+    version: 0.0.6
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -74962,6 +75030,37 @@ entries:
     - https://github.com/truecharts/apps/releases/download/piaware-4.0.20/piaware-4.0.20.tgz
     version: 4.0.20
   picoshare:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.5
+    created: "2022-04-02T10:42:14.810144265Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: PicoShare is a minimalist service that allows you to share files
+      easily.
+    digest: fecedb2699a85c6129ae05baf394cf89f72e450f94da234292fa161509bc82e8
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/picoshare
+    icon: https://truecharts.org/_static/img/appicons/picoshare.png
+    keywords:
+    - picoshare
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: picoshare
+    sources:
+    - https://github.com/mtlynch/picoshare
+    - https://hub.docker.com/r/mtlynch/picoshare
+    urls:
+    - https://github.com/truecharts/apps/releases/download/picoshare-0.0.2/picoshare-0.0.2.tgz
+    version: 0.0.2
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -106406,6 +106505,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.2.0-php8
+    created: "2022-04-02T10:42:15.01221129Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.truecharts.org/
+      version: 2.0.28
+    description: Typecho is a PHP Blogging Platform.
+    digest: f303cf364d75964b6fec24a55c934bc7965c159c5f84a28fc9e228fea97a0c32
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/typecho
+    icon: https://truecharts.org/_static/img/appicons/typecho.png
+    keywords:
+    - typecho
+    - blog
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: typecho
+    sources:
+    - https://github.com/typecho/typecho
+    - https://hub.docker.com/r/joyqi/typecho
+    urls:
+    - https://github.com/truecharts/apps/releases/download/typecho-0.0.3/typecho-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - hosting
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.2.0-php8
     created: "2022-04-02T08:25:40.518404433Z"
     dependencies:
     - name: common
@@ -112029,6 +112163,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 14.2.1-pos
+    created: "2022-04-02T10:42:15.237327155Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 7.0.27
+    description: XWiki is a free wiki software platform written in Java with a design
+      emphasis on extensibility
+    digest: 9cae29e18e7abf6b83a81923790d083bf35763bc4e879f449ae1124dd7bc5e2c
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/xwiki
+    icon: https://truecharts.org/_static/img/appicons/xwiki.png
+    keywords:
+    - xwiki
+    - wiki
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: xwiki
+    sources:
+    - https://hub.docker.com/_/xwiki
+    - https://github.com/xwiki/xwiki-docker
+    urls:
+    - https://github.com/truecharts/apps/releases/download/xwiki-0.0.3/xwiki-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 14.2.1-pos
     created: "2022-04-02T08:25:40.709874415Z"
     dependencies:
     - name: common
@@ -113473,4 +113643,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-02T10:20:03.986615695Z"
+generated: "2022-04-02T10:42:15.249085286Z"
