@@ -75560,6 +75560,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.0.5
+    created: "2022-04-03T10:16:03.789814328Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    description: PicoShare is a minimalist service that allows you to share files
+      easily.
+    digest: b972887422e08ca18b6e4ac50d4d67e64c57ee207bce7d0c358b400913aeafe7
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/picoshare
+    icon: https://truecharts.org/_static/img/appicons/picoshare.png
+    keywords:
+    - picoshare
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: picoshare
+    sources:
+    - https://github.com/mtlynch/picoshare
+    - https://hub.docker.com/r/mtlynch/picoshare
+    urls:
+    - https://github.com/truecharts/apps/releases/download/picoshare-0.0.3/picoshare-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.5
     created: "2022-04-02T10:42:14.810144265Z"
     dependencies:
     - name: common
@@ -107172,6 +107203,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.2.0-php8
+    created: "2022-04-03T10:16:03.973091101Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.truecharts.org/
+      version: 2.0.28
+    description: Typecho is a PHP Blogging Platform.
+    digest: 36caec0ca77e341dfb2691728ef128133f94da82ffb7d765a654eed3ecf8c066
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/typecho
+    icon: https://truecharts.org/_static/img/appicons/typecho.png
+    keywords:
+    - typecho
+    - blog
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: typecho
+    sources:
+    - https://github.com/typecho/typecho
+    - https://hub.docker.com/r/joyqi/typecho
+    urls:
+    - https://github.com/truecharts/apps/releases/download/typecho-0.0.4/typecho-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - hosting
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.2.0-php8
     created: "2022-04-02T10:42:15.01221129Z"
     dependencies:
     - name: common
@@ -112830,6 +112896,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 14.2.1-pos
+    created: "2022-04-03T10:16:04.172859727Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 7.0.27
+    description: XWiki is a free wiki software platform written in Java with a design
+      emphasis on extensibility
+    digest: baf6227c6722632cce22250dbc3511bbab2dd3b2d63b02339a22fa47831179f8
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/xwiki
+    icon: https://truecharts.org/_static/img/appicons/xwiki.png
+    keywords:
+    - xwiki
+    - wiki
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: xwiki
+    sources:
+    - https://hub.docker.com/_/xwiki
+    - https://github.com/xwiki/xwiki-docker
+    urls:
+    - https://github.com/truecharts/apps/releases/download/xwiki-0.0.4/xwiki-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 14.2.1-pos
     created: "2022-04-02T10:42:15.237327155Z"
     dependencies:
     - name: common
@@ -114342,4 +114444,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-03T09:03:17.266192397Z"
+generated: "2022-04-03T10:16:04.187056991Z"
