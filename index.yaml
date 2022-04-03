@@ -55488,6 +55488,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2022-04-03T11:33:58.763626354Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 9.2.6
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.truecharts.org/
+      version: 0.0.14
+    description: MeshCentral is a full computer management web site
+    digest: dc00b933c965621f4dfe679b4115d5ce0da4d7c78d66778b949a04b197d3aaf0
+    home: https://github.com/truecharts/apps/tree/master/charts/stable/meshcentral
+    icon: https://truecharts.org/_static/img/appicons/meshcentral.png
+    keywords:
+    - meshcentral
+    - teamviewer
+    - rdp
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: meshcentral
+    sources:
+    - https://github.com/Ylianst/MeshCentral
+    type: application
+    urls:
+    - https://github.com/truecharts/apps/releases/download/meshcentral-0.0.8/meshcentral-0.0.8.tgz
+    version: 0.0.8
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2022-04-03T06:50:08.455877088Z"
     dependencies:
     - name: common
@@ -114683,4 +114719,4 @@ entries:
     urls:
     - https://github.com/truecharts/apps/releases/download/zwavejs2mqtt-9.0.24/zwavejs2mqtt-9.0.24.tgz
     version: 9.0.24
-generated: "2022-04-03T11:09:09.943269374Z"
+generated: "2022-04-03T11:33:58.774477416Z"
