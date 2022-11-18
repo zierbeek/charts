@@ -224,6 +224,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.6.17
+    created: "2022-11-18T07:46:53.221846751Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.3
+    description: Memcached is a memory-backed database caching solution
+    digest: 0619b15be98bd379f6f164c327a57b6bca167fc44238b43e610bfbb572bb62f2
+    home: https://truecharts.org/docs/charts/dependency/memcached
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - http://memcached.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/memcached-5.0.4/memcached-5.0.4.tgz
+    version: 5.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.17
     created: "2022-11-15T17:32:43.62452832Z"
     dependencies:
     - name: common
@@ -806,4 +841,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2022-11-18T02:21:48.279600703Z"
+generated: "2022-11-18T07:46:53.221908152Z"
