@@ -185,6 +185,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 10.9.4
+    created: "2022-11-22T00:29:50.298305838Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.3
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 04fbc3a286a7e33bcb355ec844728eee70e48f7691f34eb3a7d679b5fd7daf90
+    home: https://truecharts.org/docs/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mariadb-5.0.4/mariadb-5.0.4.tgz
+    version: 5.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 10.9.4
     created: "2022-11-18T13:56:44.699084271Z"
     dependencies:
     - name: common
@@ -253,6 +290,41 @@ entries:
     - https://github.com/truecharts/charts/releases/download/mariadb-5.0.2/mariadb-5.0.2.tgz
     version: 5.0.2
   memcached:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.17
+    created: "2022-11-22T00:29:50.461002192Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.3
+    description: Memcached is a memory-backed database caching solution
+    digest: 78d98ec456334717b69a070ffbf24ee8fc2888ab6cbe724242e7bbd321de1739
+    home: https://truecharts.org/docs/charts/dependency/memcached
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - http://memcached.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/memcached-5.0.5/memcached-5.0.5.tgz
+    version: 5.0.5
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -1089,4 +1161,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2022-11-21T14:00:55.329020325Z"
+generated: "2022-11-22T00:29:50.461066392Z"
