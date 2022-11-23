@@ -619,6 +619,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 14.6.0
+    created: "2022-11-23T07:44:39.253975519Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.3
+    description: PostgresSQL
+    digest: 0e45b21c00b3d9ee0bea489f2c1c714a880a1a326227f9fce4858f89784e1344
+    home: https://truecharts.org/docs/charts/dependency/postgresql
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png
+    keywords:
+    - postgres
+    - postgressql
+    - dtabase
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: postgresql
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/postgresql
+    - https://www.postgresql.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/postgresql-11.0.4/postgresql-11.0.4.tgz
+    version: 11.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 14.6.0
     created: "2022-11-22T22:48:10.092259289Z"
     dependencies:
     - name: common
@@ -1366,4 +1400,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2022-11-22T22:48:10.092364488Z"
+generated: "2022-11-23T07:44:39.254089818Z"
