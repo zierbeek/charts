@@ -116,6 +116,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 22.05.8.2
+    created: "2022-11-24T20:20:45.122532391Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.3
+    description: An awesome Online Office suite.
+    digest: 663b06a436206b3101f9a3ee5af440fa2193c207368b7edcd5174f96434d7275
+    home: https://truecharts.org/docs/charts/dependency/collabora-online
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/collabora-online.png
+    keywords:
+    - collabora-online
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: collabora-online
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/collabora-online
+    - https://hub.docker.com/r/collabora/code
+    - https://sdk.collaboraonline.com/contents.html
+    - https://github.com/CollaboraOnline/online/tree/master/kubernetes/helm
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/collabora-online-14.0.3/collabora-online-14.0.3.tgz
+    version: 14.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - office
+        - documents
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 22.05.8.2
     created: "2022-11-15T17:32:43.357871373Z"
     dependencies:
     - name: common
@@ -1210,6 +1245,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.1.0
+    created: "2022-11-24T20:20:45.231540183Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.3
+    description: Apache Solr
+    digest: d3515ed72cb29dfaabad9b82b85405a5ebadfb9b2b9e87667c25c452996499cd
+    home: https://truecharts.org/docs/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://github.com/apache/solr
+    - https://hub.docker.com/r/bitnami/solr/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-2.0.5/solr-2.0.5.tgz
+    version: 2.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - search
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.1.0
     created: "2022-11-22T15:24:35.394680633Z"
     dependencies:
     - name: common
@@ -1400,4 +1469,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2022-11-23T07:44:39.254089818Z"
+generated: "2022-11-24T20:20:45.231603083Z"
