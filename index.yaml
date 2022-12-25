@@ -1899,6 +1899,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 6.0.3
+    created: "2022-12-25T00:06:21.65722659Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.0
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: 77e3acf42312c9b054df62eec70f1f8dcf27850b50fc8df848c6784faeb83e47
+    home: https://truecharts.org/charts/dependency/mongodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb
+    - https://hub.docker.com/r/bitnami/mongodb
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://www.mongodb.com
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mongodb-4.0.17/mongodb-4.0.17.tgz
+    version: 4.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 6.0.3
     created: "2022-12-24T22:03:49.973607829Z"
     dependencies:
     - name: common
@@ -3485,6 +3521,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 7.0.7
+    created: "2022-12-25T00:06:21.774456683Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.0
+    description: Open source, advanced key-value store.
+    digest: 751ed8502683cff5d810820d2567ccc8aaaddeb516882197287837e8b1cc005a
+    home: https://truecharts.org/charts/dependency/redis
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redis
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/redis-5.0.19/redis-5.0.19.tgz
+    version: 5.0.19
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 7.0.7
     created: "2022-12-24T22:03:50.401372875Z"
     dependencies:
     - name: common
@@ -4073,6 +4144,40 @@ entries:
     - https://github.com/truecharts/charts/releases/download/redis-5.0.1/redis-5.0.1.tgz
     version: 5.0.1
   solr:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - search
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.1.0
+    created: "2022-12-25T00:06:21.877798823Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.0
+    description: Apache Solr
+    digest: 4752382a32593a118e40b6823ce4342f9f3a18e7cbd8b94355bd85f03f382e7b
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://github.com/apache/solr
+    - https://hub.docker.com/r/bitnami/solr/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-2.0.15/solr-2.0.15.tgz
+    version: 2.0.15
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -4820,4 +4925,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2022-12-24T23:54:28.729635112Z"
+generated: "2022-12-25T00:06:21.878244928Z"
