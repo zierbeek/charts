@@ -570,6 +570,41 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 22.05.9.3
+    created: "2023-01-31T00:34:20.622927697Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An awesome Online Office suite.
+    digest: 460c8e476a0a7a25bbfe688bf0131a85624bae09c6547881bb6d0180efe71e4e
+    home: https://truecharts.org/charts/dependency/collabora-online
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/collabora-online.png
+    keywords:
+    - collabora-online
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: collabora-online
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/collabora-online
+    - https://hub.docker.com/r/collabora/code
+    - https://sdk.collaboraonline.com/contents.html
+    - https://github.com/CollaboraOnline/online/tree/master/kubernetes/helm
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/collabora-online-14.0.15/collabora-online-14.0.15.tgz
+    version: 14.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - office
+        - documents
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 22.05.9.2
     created: "2022-12-27T19:44:35.205899741Z"
     dependencies:
@@ -7274,4 +7309,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-01-30T23:48:55.24143543Z"
+generated: "2023-01-31T00:34:20.6233415Z"
