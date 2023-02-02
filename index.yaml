@@ -1130,6 +1130,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 10.10.2
+    created: "2023-02-02T22:30:11.975357655Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: dc0d5f62cbcc88066638e2be6b1fa28590f1ab1ffb4dc1a7fc197544787f806f
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://hub.docker.com/bitnami/mariadb
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mariadb-5.0.26/mariadb-5.0.26.tgz
+    version: 5.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 10.10.2
     created: "2023-01-24T12:42:51.664650176Z"
     dependencies:
     - name: common
@@ -2012,6 +2050,42 @@ entries:
     - https://github.com/truecharts/charts/releases/download/mariadb-5.0.2/mariadb-5.0.2.tgz
     version: 5.0.2
   memcached:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.18
+    created: "2023-02-02T22:30:12.12849832Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Memcached is a memory-backed database caching solution
+    digest: c684a8f6596a8f791c055017c533f88a1878f02d48080fd55685a3891e99be41
+    home: https://truecharts.org/charts/dependency/memcached
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
+    - https://hub.docker.com/bitnami/memcached
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - http://memcached.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/memcached-5.0.25/memcached-5.0.25.tgz
+    version: 5.0.25
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -3763,6 +3837,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 14.6.0
+    created: "2023-02-02T22:30:12.281502183Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: PostgresSQL
+    digest: 947c53b017a02f35cbbb9eba8687f82ddb04ea1fdf771897f8419cd1b76b42f7
+    home: https://truecharts.org/charts/dependency/postgresql
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png
+    keywords:
+    - postgres
+    - postgressql
+    - dtabase
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: postgresql
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/postgresql
+    - https://hub.docker.com/bitnami/postgresql
+    - https://www.postgresql.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/postgresql-11.0.23/postgresql-11.0.23.tgz
+    version: 11.0.23
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 14.6.0
     created: "2023-01-24T12:42:51.826880309Z"
     dependencies:
     - name: common
@@ -4675,6 +4784,43 @@ entries:
     - https://github.com/truecharts/charts/releases/download/postgresql-10.0.1/postgresql-10.0.1.tgz
     version: 10.0.1
   promtail:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+        - logs
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.7.2
+    created: "2023-02-02T22:30:12.446283304Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Promtail is an agent which ships the contents of local logs to a
+      Loki instance
+    digest: 4d019a58190cdf838da87953f31bbcf3318248198983fe6f23bddb1a426a5937
+    home: https://truecharts.org/charts/dependency/promtail
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/promtail.png
+    keywords:
+    - metrics
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: promtail
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/promtail
+    - https://hub.docker.com/grafana/promtail
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/promtail-6.0.13/promtail-6.0.13.tgz
+    version: 6.0.13
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -6204,6 +6350,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.1.1
+    created: "2023-02-02T22:30:12.59140516Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Apache Solr
+    digest: f58a6e8349ecc0ea647311b7ca6de2f5a7ff8b623a022b225d15d4532c2cbd58
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://hub.docker.com/bitnami/solr
+    - https://github.com/apache/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-2.0.27/solr-2.0.27.tgz
+    version: 2.0.27
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - search
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.1.1
     created: "2023-01-31T09:55:14.361534387Z"
     dependencies:
     - name: common
@@ -7412,4 +7592,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-01-31T13:58:19.232943314Z"
+generated: "2023-02-02T22:30:12.592457275Z"
