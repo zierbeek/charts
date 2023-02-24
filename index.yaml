@@ -5759,6 +5759,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.7.4
+    created: "2023-02-24T21:53:47.414084136Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Promtail is an agent which ships the contents of local logs to a
+      Loki instance
+    digest: 65b5880334304bdb29c7c29f4173e3f1644455d6a69e85753ff6eec127ebdb96
+    home: https://truecharts.org/charts/dependency/promtail
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/promtail.png
+    keywords:
+    - metrics
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: promtail
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/promtail
+    - https://hub.docker.com/r/grafana/promtail
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/promtail-6.0.17/promtail-6.0.17.tgz
+    version: 6.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+        - logs
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.7.4
     created: "2023-02-24T19:51:16.441037138Z"
     dependencies:
     - name: common
@@ -8910,4 +8947,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-02-24T19:51:16.44154714Z"
+generated: "2023-02-24T21:53:47.415033322Z"
