@@ -109,6 +109,7 @@ questions:
             default: 3
             required: true
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: Main Service

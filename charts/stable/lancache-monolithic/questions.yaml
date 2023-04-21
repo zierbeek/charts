@@ -61,6 +61,7 @@ questions:
             type: string
             default: "500m"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

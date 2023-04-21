@@ -60,6 +60,7 @@ questions:
             type: int
             default: 0
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

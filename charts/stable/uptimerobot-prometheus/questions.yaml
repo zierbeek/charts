@@ -12,6 +12,7 @@ questions:
 # Include{containerAdvanced}
 
 # Include{containerConfig}
+# Include{podOptions}
   - variable: secretEnv
     group: "App Configuration"
     label: "Image Secrets"

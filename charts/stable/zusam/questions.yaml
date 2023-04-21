@@ -234,6 +234,7 @@ questions:
                   type: int
                   default: 2592000
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: Main Service

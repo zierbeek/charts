@@ -524,6 +524,7 @@ questions:
                     - value: "emergency"
                       description: "emergency"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

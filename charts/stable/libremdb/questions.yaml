@@ -65,6 +65,7 @@ questions:
 # Include{containerAdvanced}
 
 # Include{containerConfig}
+# Include{podOptions}
 
 # Include{serviceRoot}
 # Include{serviceMain}

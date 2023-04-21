@@ -105,6 +105,7 @@ questions:
 # Include{containerAdvanced}
 
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceExpertRoot}
             default: false
 # Include{serviceExpert}

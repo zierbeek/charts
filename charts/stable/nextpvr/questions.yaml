@@ -27,6 +27,7 @@ questions:
             $ref:
               - "definitions/nodeIP"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

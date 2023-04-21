@@ -103,6 +103,7 @@ questions:
             type: string
             default: ""
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

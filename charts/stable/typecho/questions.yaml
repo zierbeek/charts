@@ -71,6 +71,7 @@ questions:
             required: true
             default: "50M"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

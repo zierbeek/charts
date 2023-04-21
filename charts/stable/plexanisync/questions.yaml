@@ -228,6 +228,7 @@ questions:
                               required: true
                               default: ""
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceExpertRoot}
             default: false
 # Include{serviceExpert}

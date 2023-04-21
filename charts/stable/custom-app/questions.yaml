@@ -46,6 +46,7 @@ questions:
 # Include{controllerExpertCommand}
 
 # Include{containerConfig}
+# Include{podOptions}
   - variable: probes
     group: "App Configuration"
     label: "Healthcheck Probes"

@@ -11,6 +11,7 @@ questions:
 # Include{containerAdvanced}
 
 # Include{containerConfig}
+# Include{podOptions}
   - variable: domains
     group: "App Configuration"
     label: "Domains"

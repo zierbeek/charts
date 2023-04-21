@@ -47,6 +47,7 @@ questions:
             type: string
             default: "YOUR.FQDN or YOUR.NAS.IP"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

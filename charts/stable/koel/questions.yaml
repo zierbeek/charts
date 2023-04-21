@@ -58,6 +58,7 @@ questions:
             type: int
             default: 2048
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"

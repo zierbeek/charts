@@ -125,6 +125,7 @@ questions:
             type: boolean
             default: false
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
