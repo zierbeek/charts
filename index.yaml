@@ -2642,6 +2642,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 10.11.3
+    created: "2023-05-16T10:06:11.129216437Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.8.1
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 2f58fe8a4112497a33f7a2d7029d819e01b6bfdbb752a9902f47a881e57f3cad
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mariadb-7.0.27/mariadb-7.0.27.tgz
+    version: 7.0.27
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 10.11.3
     created: "2023-05-15T10:11:09.117004859Z"
     dependencies:
     - name: common
@@ -14655,6 +14692,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.2.1
+    created: "2023-05-16T10:06:11.308782926Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.8.1
+    description: Apache Solr
+    digest: 8043cd714d9ba4ac4086951bf57b71d89d95d8b0c08acebdc6cde3ce48559c92
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://github.com/apache/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/solr-4.0.26/solr-4.0.26.tgz
+    version: 4.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - search
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.2.1
     created: "2023-05-15T10:11:09.728704047Z"
     dependencies:
     - name: common
@@ -17404,4 +17474,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-05-15T10:11:09.730037742Z"
+generated: "2023-05-16T10:06:11.310086045Z"
