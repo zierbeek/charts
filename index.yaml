@@ -10435,6 +10435,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.5.2
+    created: "2023-05-22T09:43:00.435561097Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.8.2
+    description: Prometheus exporter for hardware and OS metrics exposed by UNIX kernels,
+      with pluggable metric collectors.
+    digest: a175d57013c3b92afb91e64bb12bd15355c6b33bfc0da5ea9d2f188b56f3150c
+    home: https://truecharts.org/charts/dependency/node-exporter
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png
+    keywords:
+    - prometheus
+    - node-exporter
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: node-exporter
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/node-exporter-1.0.1/node-exporter-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.5.2
     created: "2023-05-22T09:20:07.26475924Z"
     dependencies:
     - name: common
@@ -17891,4 +17924,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-05-22T09:20:07.266001437Z"
+generated: "2023-05-22T09:43:00.436570718Z"
