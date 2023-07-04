@@ -3322,6 +3322,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.9.2
+    created: "2023-07-04T18:49:49.211521187Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.14.6
+    description: kube-state-metrics is a simple service that listens to the Kubernetes
+      API server and generates metrics about the state of the objects.
+    digest: 9d92f12a8b4e79da734538bc4ea9fbe35bfd5eca31bc75f1b67d882ebb8d9ae0
+    home: https://truecharts.org/charts/dependency/kube-state-metrics
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png
+    keywords:
+    - prometheus
+    - kube-state-metrics
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kube-state-metrics
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/kube-state-metrics-1.0.32/kube-state-metrics-1.0.32.tgz
+    version: 1.0.32
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.9.2
     created: "2023-06-28T17:44:41.707451493Z"
     dependencies:
     - name: common
@@ -24867,4 +24900,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-07-03T23:41:34.434035768Z"
+generated: "2023-07-04T18:49:49.215929156Z"
