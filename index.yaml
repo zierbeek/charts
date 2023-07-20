@@ -12713,6 +12713,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 6.0.8
+    created: "2023-07-20T22:46:21.986933063Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 13.2.0
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: 09b9dbded030382a3c47bfb9046d800c15573d1ac7810ed0ab1dc26b709a3c0c
+    home: https://truecharts.org/charts/dependency/mongodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://www.mongodb.com
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mongodb-7.0.1/mongodb-7.0.1.tgz
+    version: 7.0.1
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 6.0.8
     created: "2023-07-20T07:30:51.92788712Z"
     dependencies:
     - name: common
@@ -27404,4 +27439,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-07-20T22:42:10.827037753Z"
+generated: "2023-07-20T22:46:21.98858779Z"
