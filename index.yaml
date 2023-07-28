@@ -5047,6 +5047,43 @@ entries:
         - database
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 11.0.2
+    created: "2023-07-28T21:55:26.295628584Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 13.2.1
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: e9fe6d12f4710755fdddafeea9c96caab009d6bb686e3931db844df979b7e2e9
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/mariadb-8.0.5/mariadb-8.0.5.tgz
+    version: 8.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 10.11.4
     created: "2023-07-25T22:39:35.911712029Z"
     dependencies:
@@ -28465,4 +28502,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-07-28T21:50:39.731856571Z"
+generated: "2023-07-28T21:55:26.298103677Z"
