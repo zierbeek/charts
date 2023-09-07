@@ -23789,6 +23789,41 @@ entries:
         - cache
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 7.2.1
+    created: "2023-09-07T02:06:33.504610817Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 14.0.6
+    description: Open source, advanced key-value store.
+    digest: 80831b5b465925fbc1f4f3d8303750d26214a5f001fe5f2870ef85e0a44ff12e
+    home: https://truecharts.org/charts/dependency/redis
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redis
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/redis-8.0.19/redis-8.0.19.tgz
+    version: 8.0.19
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 7.2.0
     created: "2023-09-07T00:56:00.312464794Z"
     dependencies:
@@ -32912,4 +32947,4 @@ entries:
     urls:
     - https://github.com/truecharts/charts/releases/download/subchart-3.0.1/subchart-3.0.1.tgz
     version: 3.0.1
-generated: "2023-09-07T00:56:00.316921895Z"
+generated: "2023-09-07T02:06:33.507387523Z"
