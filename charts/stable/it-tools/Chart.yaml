@@ -3,7 +3,7 @@ appVersion: "2023.11.2"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
 deprecated: false
 description: Useful tools for developer and people working in IT.
 home: https://truecharts.org/charts/stable/it-tools
@@ -20,7 +20,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/it-tools
   - https://github.com/CorentinTh/it-tools
 type: application
-version: 1.0.14
+version: 1.0.15
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

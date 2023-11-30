@@ -3,7 +3,7 @@ appVersion: "23.11.2"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
 deprecated: false
 description: MKVCleaver is a tool for batch extraction of data from MKV files
 home: https://truecharts.org/charts/stable/mkvcleaver
@@ -21,7 +21,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/mkvcleaver
   - https://github.com/jlesage/docker-mkvcleaver
 type: application
-version: 5.0.12
+version: 5.0.13
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

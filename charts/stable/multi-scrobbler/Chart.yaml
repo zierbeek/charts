@@ -3,7 +3,7 @@ appVersion: "0.6.1"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
 deprecated: false
 description: "Track your music listening history from many sources and record to many scrobble clients."
 home: https://truecharts.org/charts/stable/multi-scrobbler
@@ -21,7 +21,7 @@ name: multi-scrobbler
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/multi-scrobbler
 type: application
-version: 3.0.1
+version: 3.0.2
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

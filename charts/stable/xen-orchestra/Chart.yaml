@@ -3,7 +3,7 @@ appVersion: "5.126.0"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
 description: Xen-Orchestra is a Web-UI for managing your existing XenServer infrastructure.
 home: https://truecharts.org/charts/stable/xen-orchestra
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/xen-orchestra.png
@@ -17,7 +17,7 @@ maintainers:
 name: xen-orchestra
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/xen-orchestra
-version: 5.1.25
+version: 5.1.26
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

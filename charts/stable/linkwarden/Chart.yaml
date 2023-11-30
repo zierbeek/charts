@@ -3,7 +3,7 @@ appVersion: "2.3.0"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 15.0.1
+    version: 15.3.1
 description: Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and archive webpages.
 home: https://truecharts.org/charts/stable/linkwarden
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/linkwarden.png
@@ -20,7 +20,7 @@ name: linkwarden
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/linkwarden
   - https://github.com/linkwarden/linkwarden
-version: 1.1.0
+version: 1.1.1
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

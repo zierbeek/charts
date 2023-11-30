@@ -3,7 +3,7 @@ appVersion: "0.5.0"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
 deprecated: false
 description: A bookmarking and link shortening service that enables easy saving and sharing of links.
 home: https://truecharts.org/charts/stable/slash
@@ -22,7 +22,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/slash
   - https://github.com/boojack/slash
 type: application
-version: 0.0.14
+version: 0.0.15
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

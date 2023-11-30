@@ -3,7 +3,7 @@ appVersion: "3.7.0"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
   - condition: redis.enabled
     name: redis
     repository: https://deps.truecharts.org
@@ -25,7 +25,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/shlink
   - https://github.com/shlinkio/shlink
 type: application
-version: 9.1.0
+version: 9.1.1
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"

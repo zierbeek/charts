@@ -3,7 +3,7 @@ appVersion: "7.21"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 14.3.5
+    version: 14.5.0
   - condition: mongodb.enabled
     name: mongodb
     repository: https://deps.truecharts.org
@@ -24,7 +24,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/wekan
   - https://github.com/wekan/wekan
   - https://wekan.github.io/
-version: 10.3.0
+version: 10.3.1
 annotations:
   min_scale_version: "22.12.4"
   max_scale_version: "23.10.1"
